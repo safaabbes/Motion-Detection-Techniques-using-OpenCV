@@ -6,7 +6,6 @@ fgbg = cv2.createBackgroundSubtractorMOG2()
 
 cap = cv2.VideoCapture(0)
 
-
 for t in range(MAX_FRAMES):
     # Capture frame-by-frame
     ret, frame = cap.read()
